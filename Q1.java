@@ -1,7 +1,0 @@
-public class Q1 {
-public static void main(String[] args) {
-    System.out.println("Hello DSA");
-    System.err.println("this will be my dsa repository");
-}
-    
-}
