@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Q4 {
+public class Q03 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
     System.out.print("Enter number of rows : ");
@@ -9,10 +9,10 @@ public class Q4 {
     static void patternPrint(int n){
         for(int i=1;i<=n;i++){
             for(int j=1;j<=n;j++){
-                System.out.print(j%2+" ");
+                System.out.print(j+" ");
             }
             System.out.println();
-        }
 
+        }
     }
 }

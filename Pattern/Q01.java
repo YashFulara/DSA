@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Q1 {
+public class Q01 {
 public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
     System.out.print("Enter number of rows : ");
