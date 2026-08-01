@@ -8,13 +8,16 @@ public class Q42 {
         input.close();
     }
     public static void printPattern(int n){
+        // int star=1;
         
         for(int i=1;i<=n;i++){
-            for(int j=i;j>=1;j--){
-                System.out.print(j+"   ");
+            int num=i;
+            for(int j=1;j<=i;j++){
+                System.out.print(num--+" ");
+
 
             }
-            
+            // star++;star is not needed as star is holding the same value as of i
             System.out.println();
         }
 
