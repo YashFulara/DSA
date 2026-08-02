@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Q56_imp {
+public class Q55 {
 public static void main(String[] args) {
     Scanner input=new Scanner(System.in);
     System.err.println("Enter no of Rows ");
@@ -18,7 +18,7 @@ public static void main(String[] args) {
             }
             for(int j =1;j<=i;j++)//till i beacause 2nd row has 2 no. and 3rd has 3 and so now no need to trace till nth col
             {
-                System.out.print(+" ");
+                System.out.print(j+" ");
                 
             }
             space--;
