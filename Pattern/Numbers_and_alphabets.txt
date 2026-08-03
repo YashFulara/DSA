@@ -5,6 +5,7 @@ SOP((char)(n+64));
 use /t in the place of space for high no. of rows pattern so that they can adjust the pattern accordingly(also used for keeping format same in pattern having both single digit no and double digit no)
 ex- instead of SOP("  ") use SOP(/t)
 ways to right for  number
+    (i+j)%2 (for 0,1,0,1 type of pattern ex)
     n-i+1(for rows that gives 1,2,4,5,)
     j
     j%2
