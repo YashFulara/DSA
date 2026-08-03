@@ -12,7 +12,7 @@ ways to right for  number
     patternSize(or star for me)
     for odd rows printing 2*i+1(increment)
     num=n*(n+1)/2
-    num=num+2*i+1;
+    num=num+2*i+1;(in Q61)
     num=num-(2*i+1);
 For Q95 case:
 col_mid=patternSize/2+1;
