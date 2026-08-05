@@ -14,15 +14,15 @@ public class Q102{
         int num=0;
          // int col_mid= (patternSize/2)+1; im not creating variable beacause i will use expression directly in if else conditon
         for (int i = 1; i <= n; i++) {
-            num+=i;
+            
             for (int j = 1; j<=space; j++) {
                 System.out.print("     ");
             }
             for (int j = 1; j <=patternSize; j++) {
-                if (j<(patternSize/2)+1) {
+                if (j<(patternSize/2)+1 || j>(patternSize/2)+1) {
                     System.out.printf("%5d",num++);
                 } else {
-                    System.out.printf("%5d",num--);
+                    System.out.printf("%5d",0);
                 }
             }
             
