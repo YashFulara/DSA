@@ -15,13 +15,13 @@ public class Q101{
         for (int i = 1; i <= n; i++) {
             int num=i;
             for (int j = 1; j<=space; j++) {
-                System.out.print("      ");
+                System.out.print("     ");
             }
             for (int j = 1; j <=patternSize; j++) {
                 if (j<(patternSize/2)+1) {
-                    System.out.printf("%6d",num++);
+                    System.out.printf("%5d",num++);
                 } else {
-                    System.out.printf("%6d",num--);
+                    System.out.printf("%5d",num--);
                 }
             }
             
