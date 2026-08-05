@@ -1,6 +1,6 @@
 
 import java.util.Scanner;
-public class Q98_imp{
+public class Q101{
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter no of rows :");
@@ -19,9 +19,9 @@ public class Q98_imp{
             }
             for (int j = 1; j <=patternSize; j++) {
                 if (j<(patternSize/2)+1) {
-                    System.out.printf("%3d",num--);
-                } else {
                     System.out.printf("%3d",num++);
+                } else {
+                    System.out.printf("%3d",num--);
                 }
             }
             

@@ -12,6 +12,7 @@ public class Q99_imp{
         int space=n-1;
         int patternSize=1;
         int num=0;
+         // int col_mid= (patternSize/2)+1; im not creating variable beacause i will use expression directly in if else conditon
         for (int i = 1; i <= n; i++) {
             
             for (int j = 1; j<=space; j++) {
