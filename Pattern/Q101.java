@@ -25,7 +25,7 @@ public class Q101{
                     System.out.printf("%5d",num--);
                 }
             }
-            num+=2*num+1;
+            num+=2*i;
             space--;
             patternSize+=2;
             System.out.println();
