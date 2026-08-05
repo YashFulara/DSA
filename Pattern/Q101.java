@@ -11,9 +11,10 @@ public class Q101{
     static void printPattern(int n){
         int space=n-1;
         int patternSize=1;
+        int num=1;
          // int col_mid= (patternSize/2)+1; im not creating variable beacause i will use expression directly in if else conditon
         for (int i = 1; i <= n; i++) {
-            int num=i;
+            
             for (int j = 1; j<=space; j++) {
                 System.out.print("     ");
             }
@@ -24,7 +25,7 @@ public class Q101{
                     System.out.printf("%5d",num--);
                 }
             }
-            
+            num+=2*i;
             space--;
             patternSize+=2;
             System.out.println();
