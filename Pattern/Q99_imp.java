@@ -11,8 +11,9 @@ public class Q99_imp{
     static void printPattern(int n){
         int space=n-1;
         int patternSize=1;
+        int num=0;
         for (int i = 1; i <= n; i++) {
-            int num=i;
+            
             for (int j = 1; j<=space; j++) {
                 System.out.print("   ");
             }
