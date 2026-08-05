@@ -19,7 +19,7 @@ public class Q102{
                 System.out.print("     ");
             }
             for (int j = 1; j <=patternSize; j++) {
-                if (j<(patternSize/2)+1 || j>(patternSize/2)+1) {
+                if (j<n||j>n){
                     System.out.printf("%5d",num++);
                 } else {
                     System.out.printf("%5d",0);
