@@ -12,7 +12,7 @@ public class Q130 {
         int patternSize=2*n-1;
         int num=n*n;
         for (int i = 1; i <=n; i++) {
-            for (int j = 0; j <=space; j++) {
+            for (int j = 1; j <=space; j++) {
                 System.out.print("    ");
            } 
            for (int j = 1; j <=patternSize; j++) {

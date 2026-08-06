@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Q129 {
+public class Q139 {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
         System.out.println("Enter no of rows ");
@@ -13,10 +13,11 @@ public class Q129 {
         int num=1;
         for (int i = 1; i <=n; i++) {
             for (int j = 1; j <=space; j++) {
-                System.out.print("    ");
+                System.out.print("  ");
            } 
            for (int j = 1; j <=patternSize; j++) {
-                System.out.printf("%4d",num++);
+                System.out.print((char)(num+64)+" " );
+                num++;
            }
            space++;
            patternSize-=2;
