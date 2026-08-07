@@ -1,0 +1,2 @@
+Q173match logic with sir(logic for row after n/2+1)
+Q199 what to assign num 
