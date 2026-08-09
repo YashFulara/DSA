@@ -5,7 +5,11 @@ public class Q189{
     System.out.println("Enter the no of rows ");
     int n=input.nextInt();
     input.close();
-    printPattern(n);
+    if (n%2==1) {
+            printPattern(n);
+        } else {
+            System.out.println("Please enter odd no. ");
+        }
 
    } 
    static  void printPattern(int n){

@@ -18,3 +18,4 @@ For Q95 case:
 col_mid=patternSize/2+1;
 num=(n*n/2)+1 for question case 166
 
+note odd no of row problem fixed in Q180-220
