@@ -4,6 +4,7 @@ public class Q028_imp {
         Scanner input = new Scanner(System.in);
     System.out.print("Enter number of rows : ");
         int n = input.nextInt();
+        input.close();
         if(n%2!=0){
         patternPrint(n);
         }else{
