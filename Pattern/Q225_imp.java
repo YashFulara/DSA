@@ -18,20 +18,18 @@ public class Q225_imp {
         for (int i = 1; i <=n; i++) {
            int num=1; 
             for (int j = 1; j <=n; j++) {
-                
-                if (j<=start) {
+                if (j<=start||j>=end) {
                     System.out.printf("%3s",(char)(num+64));
-                    num++;
-                    
-                } else if(j>=end){
-                     num--;
-                     System.out.printf("%3s",(char)(num+64));
-                    
-
-
-                }
+                } 
                 else {
                     System.out.printf("%3s","");
+                }
+                
+                if (j<n/2+1) {
+                    num++;
+                } 
+                else {
+                    num--;
                 }
                 
                 
