@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Q227_imp {
+public class Q228 {
   public static void main(String[] args) {
     Scanner input=new Scanner(System.in);
     System.out.println("enter the no of sequence ");
@@ -9,11 +9,11 @@ public class Q227_imp {
 
   }  
   static void printPattern(int n){
-    int num=2;
+    int num=3;
     for (int i = 1; i <=n; i++) {
         
         System.out.print(num+" , ");
-        num=num*2+1;
+        num=num*2-1;
      
     }
   }
