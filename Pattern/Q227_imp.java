@@ -9,9 +9,12 @@ public class Q227_imp {
 
   }  
   static void printPattern(int n){
+    int num=2;
     for (int i = 1; i <=n; i++) {
         
-        System.out.print((i*i+(2*i-1))+" , ");
+        System.out.print(num+" , ");
+        num=num*2+1;
+        
         
         
     }
