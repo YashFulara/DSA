@@ -7,7 +7,7 @@ public class Q233 {
     int num=1;
     for (int i = 1; i <=n; i++) {
         System.out.print((num)+", ");
-        num+=2*i+2;
+        num+=num+1;
     }
   }
 }
