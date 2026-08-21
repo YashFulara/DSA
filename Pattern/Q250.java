@@ -9,7 +9,7 @@ class Q250{
         printPattern(n);
     }
     static void printPattern(int n){
-       int num=3*n;
+       int num=n*(n+1)/2;
         for (int i = 1; i <=n; i++) {
            
             for (int j = 1; j <=i; j++) {
