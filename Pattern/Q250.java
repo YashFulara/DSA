@@ -25,7 +25,7 @@ class Q250{
             }
             if (i%2==1) {
                 num-=i;
-            } else {
+            } else { 
                 num-=i+1;
             }
             
