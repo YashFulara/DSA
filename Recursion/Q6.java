@@ -1,4 +1,5 @@
-public class Q5 {
+package Recursion;
+public class Q6 {
     public static void main(String[] args) {
         int n=1;
        int value=getSquare(n);
@@ -9,6 +10,6 @@ public class Q5 {
             return 0;
             
         }
-        return n*n+getSquare(n+1);
+        return n*n*n+getSquare(n+1);
     }
 }

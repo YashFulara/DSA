@@ -1,3 +1,4 @@
+package Recursion;
 public class Q3 {
     public static void main(String[] args) {
         int n=Integer.parseInt(IO.readln("Enter the no to generate table till(10):"));

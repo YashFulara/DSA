@@ -1,3 +1,4 @@
+package Recursion;
 public class Q7 {
     public static void main(String[] args) {
         int n=Integer.parseInt(IO.readln("Enter no for which you want to calculate the factorial "));
