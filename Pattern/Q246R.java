@@ -15,8 +15,9 @@ static void printPattern(int n) {
 }
 static int getNumber(int n, int i,int j){
     int num=0;
-    for (int k = 1; k <=j; k++) {
-        num=num+(num--);
+    int pos=n;
+    for (int k = 1; k <j; k++) {
+        num=num+(pos--);
     }
     if (j%2==1) {
         return num=num+(n-i+1);
