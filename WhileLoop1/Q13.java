@@ -6,8 +6,10 @@ public class Q13 {
     int count=0;
     while (n<=100) {
         if (n%7==0) {
-            System.out.println(n);
+            count++;
+            n++;
         }
     }
+    System.out.println(count);
     }
 }
