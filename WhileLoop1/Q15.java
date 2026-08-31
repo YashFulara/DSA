@@ -5,7 +5,7 @@ public class Q15 {
         int n=1;
         int count=0;
         while (n<=1000) {
-            if (n%7==0) {
+            if (n%7==0 && n%10==7) {
                 count++;
             }
             n++;
