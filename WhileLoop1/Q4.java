@@ -5,7 +5,8 @@ public class Q4 {
     int n=1;
     while(n*n<=100){
          System.out.println(n*n);
-         n++;               
+         n++; 
+                       
     } 
 }   
 }
