@@ -1,5 +1,5 @@
 package WhileLoop1;
-
+// LeetCode-
 public class Q22CommonFactor {
     public static void main(String[] args) {
         int a=Integer.parseInt(IO.readln("Enter the first no."));
