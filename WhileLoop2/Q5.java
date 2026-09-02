@@ -10,8 +10,10 @@ public class Q5 {
         int num=0;
         while (check<=n) {
             if (n%3==0 || n%5==0||n%7==0) {
-                num=
+                num+=n;
             }
+            check++;
         }
+        return num;
     }
 }
