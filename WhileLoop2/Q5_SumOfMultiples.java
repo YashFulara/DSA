@@ -1,6 +1,6 @@
 package WhileLoop2;
 //LeetCode-2652
-public class Q5 {
+public class Q5_SumOfMultiples {
     public static void main(String[] args) {
         int n=Integer.parseInt(IO.readln("Enter no "));
         System.out.println("Sum is "+ sumOfMultiples(n));
