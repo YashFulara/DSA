@@ -9,8 +9,8 @@ public class Q5 {
         int check=1;
         int num=0;
         while (check<=n) {
-            if (n%3==0 || n%5==0||n%7==0) {
-                num+=n;
+            if (check%3==0 || check%5==0||check%7==0) {
+                num+=check;
             }
             check++;
         }
