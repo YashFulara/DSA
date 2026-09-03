@@ -5,7 +5,7 @@ public class Q15 {
         int n=1;
         long sum=0;
         while (n<=100) {
-            sum+=n^2*(n+1);
+            sum+=n*n*(n+1);
             n++;
             
         }
