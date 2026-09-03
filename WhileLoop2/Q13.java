@@ -1,0 +1,13 @@
+package WhileLoop2;
+
+public class Q13 {
+    public static void main(String[] args) {
+        int n=1;
+        int sum=0;
+        while (n<=100) {
+            sum+=n*(n+1);
+            n++;
+        }
+        System.out.println(sum);
+    }
+}
