@@ -1,6 +1,6 @@
 package WhileLoop2;
 
-public class Q11 {
+public class Q010 {
     public static void main(String[] args) {
         
     
@@ -8,8 +8,8 @@ public class Q11 {
     int sum=0;
     while(n<=100){
         
-        if (n%2==1) {
-            sum+=n*n;
+        if (n%2==0) {
+            sum+=n*n*n;
         }
         n++;
         }

@@ -1,6 +1,6 @@
 package WhileLoop2;
 
-public class Q2 {
+public class Q02 {
     public static void main(String[] args) {
         int start=Integer.parseInt(IO.readln("Enter the no to start calculating sum from: "));
         int end=Integer.parseInt(IO.readln("Enter the no till where you want the sum: "));

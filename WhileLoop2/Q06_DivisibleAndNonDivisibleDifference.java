@@ -1,6 +1,6 @@
 package WhileLoop2;
 // LeetCode-Q2894
-public class Q6_DivisibleAndNonDivisibleDifference {
+public class Q06_DivisibleAndNonDivisibleDifference {
 public static void main(String[] args) {
     int n=Integer.parseInt(IO.readln("Enter the no. "));
     int m=Integer.parseInt(IO.readln("Enter the no. you want to check divisibility "));
