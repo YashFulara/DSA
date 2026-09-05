@@ -1,6 +1,6 @@
 package WhileLoop1;
 //LeetCode-1952
-public class Q20ThreeDivisors {
+public class Q020ThreeDivisors {
     public static void main(String[] args) {
         int n=Integer.parseInt(IO.readln("Enter the no "));
         System.out.println("your number is special?"+isThree(n));;

@@ -1,6 +1,6 @@
 package WhileLoop1;
 
-public class Q5 {
+public class Q05 {
     public void  main(String[]args){
         int count=0,n=1;
         while (n*n<=100) {

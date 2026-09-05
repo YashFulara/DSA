@@ -1,6 +1,6 @@
 package WhileLoop1;
 // LeetCode-Q2427
-public class Q22CommonFactor {
+public class Q022CommonFactor {
     public static void main(String[] args) {
         int a=Integer.parseInt(IO.readln("Enter the first no."));
         int b= Integer.parseInt(IO.readln("Enter the second no."));
