@@ -1,10 +1,10 @@
 package WhileLoop1;
 
-public class Q07 {
+public class Q008 {
     public static void main(String[] args) {
         int n=1;
-        while (n<=100) {
-            System.out.println(n*n*n);
+        while (n*n*n<=100) {
+            System.out.println(n);
             n++;
         }
     }

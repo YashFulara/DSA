@@ -1,6 +1,6 @@
 package WhileLoop1;
 
-public class Q06 {
+public class Q006 {
     public static void main(String[] args) {
         int n=Integer.parseInt(IO.readln("Enter no of bulbs: "));
         System.out.println(bulbSwitcher(n));
