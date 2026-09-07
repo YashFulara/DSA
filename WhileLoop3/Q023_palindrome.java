@@ -1,5 +1,6 @@
 package WhileLoop3;
-public class Q23 {
+//LeetCode-Q9
+public class Q023_palindrome {
     public static void main(String[] args) {
         int n=Integer.parseInt(IO.readln("Enter your no "));
         int rev=0;
