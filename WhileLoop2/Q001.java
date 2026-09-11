@@ -1,13 +1,13 @@
 package WhileLoop2;
 
-public class Q08 {
+public class Q001 {
     public static void main(String[] args) {
         int n=1;
         int sum=0;
         while (n<=100) {
-            sum+=n*n*n;
+            sum+=n;
             n++;
         }
-        System.out.println(sum);
+        System.out.println("sum is "+sum);
     }
 }

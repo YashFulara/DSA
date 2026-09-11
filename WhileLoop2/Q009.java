@@ -1,6 +1,6 @@
 package WhileLoop2;
 
-public class Q09 {
+public class Q009 {
     public static void main(String[] args) {
         
     
