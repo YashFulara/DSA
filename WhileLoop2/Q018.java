@@ -1,0 +1,15 @@
+package WhileLoop2;
+
+public class Q018 {
+    public static void main(String[] args) {
+        double n=1;
+        double sum=0;
+        while (n<=100) {
+            if (n%2==1) {
+                sum+=1/n;
+            }
+            n++;
+        }
+        System.out.println(sum);
+    }
+}
