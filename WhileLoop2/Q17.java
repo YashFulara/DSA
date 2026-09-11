@@ -8,6 +8,8 @@ public class Q17 {
             if (n%2==0) {
                 sum+=1/n;
             }
+            n++;
         }
+        System.out.println(sum);
     }
 }
