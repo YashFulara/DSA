@@ -1,6 +1,6 @@
 package WhileLoop3;
 
-public class Q3 {
+public class Q003 {
   public static void main(String[] args) {
       int n=Integer.parseInt(IO.readln("Enter the no. "));
       while (n>0) {

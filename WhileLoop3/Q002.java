@@ -1,11 +1,12 @@
 package WhileLoop3;
 
-public class Q4 {
+public class Q002 {
   public static void main(String[] args) {
       int n=Integer.parseInt(IO.readln("Enter the no. "));
       while (n>0) {
-        if (n%10>=5) {
-            System.out.println(n%10);
+        int last=n%10;
+        if (last%2==0) {
+            System.out.println(last);
         }
         n=n/10;
       }

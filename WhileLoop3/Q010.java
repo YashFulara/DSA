@@ -1,5 +1,5 @@
 package WhileLoop3;
-public class Q10 {
+public class Q010 {
     public static void main(String[] args) {
         int n=Integer.parseInt(IO.readln("Enter your no"));
         int count=0;
