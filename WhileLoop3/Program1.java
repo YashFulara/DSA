@@ -19,10 +19,10 @@ public class Program1 {
                 current=new StringBuilder();
             }
             else if (c==')') {
-                StringBuilder previous=new StringBuilder();
-                previous=stack.pop();
-                previous.append(current.reverse());
-                current=previous;
+                String previous="";
+                previous=(stack.pop()).toString();
+                previous+=current.reverse();
+                current.equals(previous);
             }
             else{
                 current.append(c);
